@@ -1,1 +1,10 @@
-console.log("hello")
+//
+
+$(document).ready(()=>{
+    console.log("hu");
+
+    $(".con").click(()=>{
+        alert("clcik");
+    });
+
+});
