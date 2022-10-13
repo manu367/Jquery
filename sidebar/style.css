@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=sqap");
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap'); 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&family=Shrikhand&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    
+}
+
+/********* nav bar start********/
+/*1. main container*/
+.navstart{
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: blue;
+    
+ 
+}
+/*2. logo*/
+.logo div  div{
+   width: 30px;
+   height: 3px;
+   background-color: black;
+   transform: rotate(0deg);
+   margin-top: 5px;
+   
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+
+}
+.main-logo{
+margin-left: 20px;
+}
+.style-scope{
+    width: 5px;
+    height: 20px;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+
+
+
+
