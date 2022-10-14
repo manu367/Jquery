@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.ckeditor.com/4.20.0/full-all/ckeditor.js"></script>
+</head>
+
+<body>
+    <textarea name="editor1"></textarea>
+    <script>
+        var editor = CKEDITOR.replace('editor1');
+        editor.on('change', function (evt) {
+            // getData() returns CKEditor's HTML content.
+            console.log('Total bytes: ' + evt.editor.getData());
+        });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .dialog {
+            width: 900px;
+            height: 450px;
+
+            display: grid;
+            grid-template-columns: 400px 500px;
+            border-radius: 10px;
+            margin-top: 100px;
+            margin-left: 300px;
+            position: fixed;
+            border: 1px solid rgb(220, 214, 214);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+        }
+
+        .col-1-mkl {
+
+            background-image: url("./photo-1538943963832-856b555cd29b.jfif");
+            background-position: 0 0;
+            background-size: 450px 450px;
+            background-repeat: no-repeat;
+            border-top-left-radius: 10px;
+
+        }
+
+        .col-2-mkl {
+            border-top-right-radius: 10px;
+        }
+
+        .con {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            margin-top: 50px;
+
+        }
+
+        .m {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dialog">
+        <div class="col-1-mkl"></div>
+        <div class="col-2-mkl">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 offset-2">
+                        <form>
+                            <div class="con">
+                                <div class="m">
+    
+    
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Product Id"
+                                             aria-describedby="button-addon2">
+                                        <button class="btn btn-outline-success" type="button" id="button-addon2">Button</button>
+                                    </div>
+                                    
+                                </div>
+    
+                                <div class="m">
+                                    <select class="form-select overflow-scroll" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">Mobile</option>
+                                        <option value="2">Tv</option>
+                                        <option value="3">Grossery</option>
+                                        <option value="4">Electronices</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="4">Clothes</option>
+                                        <option value="2">Tv</option>
+                                        <option value="3">Grossery</option>
+                                        <option value="4">Electronices</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="4">Clothes</option>
+                                        <option value="2">Tv</option>
+                                        <option value="3">Grossery</option>
+                                        <option value="4">Electronices</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="4">Clothes</option>
+                                        <option value="1">Mobile</option>
+                                        <option value="2">Tv</option>
+                                        <option value="3">Grossery</option>
+                                        <option value="4">Electronices</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="4">Clothes</option>
+                                        <option value="2">Tv</option>
+                                        <option value="3">Grossery</option>
+                                        <option value="4">Electronices</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="4">Clothes</option>
+                                        <option value="2">Tv</option>
+                                        <option value="3">Grossery</option>
+                                        <option value="4">Electronices</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="4">Clothes</option>
+                                        <option value="1">Mobile</option>
+                                        <option value="2">Tv</option>
+                                        <option value="3">Grossery</option>
+                                        <option value="4">Electronices</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="4">Clothes</option>
+                                        <option value="2">Tv</option>
+                                        <option value="3">Grossery</option>
+                                        <option value="4">Electronices</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="4">Clothes</option>
+                                        <option value="2">Tv</option>
+                                        <option value="3">Grossery</option>
+                                        <option value="4">Electronices</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="4">Clothes</option>
+                                      </select>
+                                </div>
+    
+                                <div class="m">
+                                    <input type="hidden" name="" id="" class="form-control" placeholder="caompany id">
+                                </div>
+    
+                                <div class="m">
+                                    <input type="text" name="" id="" class="form-control" placeholder="comapny name">
+                                </div>
+
+                                <div class="mt-4">
+                                    <button class="btn btn-outline-primary float-start" type="submit">Save</button>
+                                    <button class="btn btn-danger float-end" type="reset">cancel</button>
+                                </div>
+    
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
